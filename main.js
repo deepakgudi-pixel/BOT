@@ -1,5 +1,5 @@
 import anime from "animejs";
-import "./style.css";
+import "./styles/app.scss";
 
 function init() {
   let current = 0;

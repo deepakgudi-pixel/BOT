@@ -136,9 +136,15 @@
   width: 500px;
   position: relative;
 
-  @include breakpoint(1366) {
+  @include breakpoint(1600) {
     width: 400px;
     height: 400px;
+  }
+
+
+  @include breakpoint(1366) {
+    width: 380px;
+    height: 380px;
   }
 
   @include breakpoint(768) {
